@@ -4,7 +4,7 @@ import { Menu } from "lucide-react"
 
 export default function Header() {
     return (
-        <header className="w-full px-4 py-3 shadow-md bg-headerViolet flex justify-between items-center sticky top-0 z-50">
+        <header className="w-full px-4 py-3 shadow-md bg-headerViolet flex justify-between items-center top-0 z-50">
             <div className="text-xl font-bold text-white">Amine Noura</div>
 
             {/* Menu desktop */}

@@ -1,29 +1,37 @@
 export const projects = [{
     title: 'Bud travelers',
-    img: '/project/travelbud.webp',
-    images: [],
-    link: 'https://www.antoinelamerde.com',
-    description: "Premier projet réaliser au cours de ma formation. Projet pour appliquer les compétences en html et css, plus particulièrement du sass"
+    img: '/project/travelbud/travelbud.webp',
+    images: ['/project/travelbud/travelbud.webp', '/project/travelbud/budtravel1.webp'],
+    link: 'https://budtravelers.vercel.app/',
+    github: 'https://github.com/AmineNRA/budtravelers',
+    techno: ['HTML', 'SASS'],
+    description: "Projet réalisé en autonomie durant ma formation de développeur web. Bud Travelers est un site fictif de voyages conçu pour consolider mes compétences en HTML, CSS et Sass. L'objectif était de maîtriser la structuration d'une page web, la mise en page responsive et la gestion avancée du style via Sass."
 
 }, {
     title: 'Glob Lyon',
-    img: '/project/globlyon.webp',
-    images: [],
-    link: 'antoinelamerde.com',
-    description: "Projet réaliser au cours de ma formation après le chapitre sur nodeJS et postgreSQL. C'est un site d'actualité autour de la ville de lyon"
-}, {
-    title: 'ton pere',
-    img: 'DSC_0728-min.webp',
-    images: [],
-    link: 'antoinelamerde.com',
-    description: "Application de rencontre fait avec react, tailwind."
-}, {
+    img: '/project/globlyon/globlyon.webp',
+    images: ['/project/globlyon/globlyon1.webp', '/project/globlyon/globlyon2.webp', '/project/globlyon/globlyon3.webp'],
+    link: 'https://globlyon.aminenra.fr/',
+    github: 'https://github.com/AmineNRA/glob-lyon',
+    techno: ['NodeJs', 'Sequelize', 'EJS'],
+    description: "Globlyon est un site web que j'ai créé dans le cadre de ma formation pour mettre en pratique mes compétences en développement back-end et gestion de base de données. Ce projet, centré sur l'actualité de Lyon, propose des informations locales sur les événements, les activités et les escapades à faire dans la ville, tout en mettant l'accent sur l'interaction avec les utilisateurs et la gestion des contenus."
+},
+{
     title: 'Bud travelers',
-    img: '/project/travelbud.webp'
+    img: '/project/travelbud/travelbud.webp',
+    images: ['/project/travelbud/travelbud.webp', '/project/travelbud/budtravel1.webp'],
+    link: 'https://budtravelers.vercel.app/',
+    github: 'https://github.com/AmineNRA/budtravelers',
+    techno: ['HTML', 'SASS'],
+    description: "Projet réalisé en autonomie durant ma formation de développeur web. Bud Travelers est un site fictif de voyages conçu pour consolider mes compétences en HTML, CSS et Sass. L'objectif était de maîtriser la structuration d'une page web, la mise en page responsive et la gestion avancée du style via Sass."
+
 }, {
     title: 'Glob Lyon',
-    img: '/project/globlyon.webp'
-}, {
-    title: 'ton pere',
-    img: 'DSC_0728-min.webp'
-}]
+    img: '/project/globlyon/globlyon.webp',
+    images: ['/project/globlyon/globlyon1.webp', '/project/globlyon/globlyon2.webp', '/project/globlyon/globlyon3.webp'],
+    link: 'https://globlyon.aminenra.fr/',
+    github: 'https://github.com/AmineNRA/glob-lyon',
+    techno: ['NodeJs', 'Sequelize', 'EJS'],
+    description: "Globlyon est un site web que j'ai créé dans le cadre de ma formation pour mettre en pratique mes compétences en développement back-end et gestion de base de données. Ce projet, centré sur l'actualité de Lyon, propose des informations locales sur les événements, les activités et les escapades à faire dans la ville, tout en mettant l'accent sur l'interaction avec les utilisateurs et la gestion des contenus."
+},
+]

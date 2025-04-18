@@ -125,3 +125,15 @@
   --color-buttonSkills: #1A0333;
   --color-textViolet: #7F37CC;
 }
+
+h1,h2,h3{
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #6C2BD9 5%, white 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}

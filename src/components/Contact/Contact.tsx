@@ -44,17 +44,17 @@ export default function Contact() {
 
     return (
         <section>
-            <h2 id="contact" className="text-center text-white font-bold text-2xl my-10">Travaillons ensemble</h2>
+            <h2 id="contact" className="text-center text-white font-bold text-2xl my-10 gradient-text lg:text-6xl">Travaillons ensemble</h2>
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 md:w-[400px] md:mx-auto">
                     <FormField
                         control={form.control}
                         name="firstname"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-white">Prénom :</FormLabel>
+                                <FormLabel className="text-white lg:text-lg">Prénom :</FormLabel>
                                 <FormControl>
-                                    <Input type="text" placeholder="ex: Martin" {...field} />
+                                    <Input type="text" className="text-white" placeholder="ex: Martin" {...field} />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
@@ -65,9 +65,9 @@ export default function Contact() {
                         name="lastname"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-white">Nom de famille :</FormLabel>
+                                <FormLabel className="text-white lg:text-lg">Nom de famille :</FormLabel>
                                 <FormControl>
-                                    <Input type="text" placeholder="ex: Dupont" {...field} />
+                                    <Input type="text" className="text-white" placeholder="ex: Dupont" {...field} />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
@@ -79,9 +79,9 @@ export default function Contact() {
                         name="mail"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-white">Email :</FormLabel>
+                                <FormLabel className="text-white lg:text-lg">Email :</FormLabel>
                                 <FormControl>
-                                    <Input type="email" placeholder="ex: amine@gmail.com" {...field} />
+                                    <Input type="email" className="text-white" placeholder="ex: amine@gmail.com" {...field} />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
@@ -93,9 +93,9 @@ export default function Contact() {
                         name="phone_number"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-white">Numéro de téléphone :</FormLabel>
+                                <FormLabel className="text-white lg:text-lg">Numéro de téléphone :</FormLabel>
                                 <FormControl>
-                                    <Input type="number" placeholder="06.06.06.06.06" {...field} />
+                                    <Input type="number" className="text-white" placeholder="06.06.06.06.06" {...field} />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
@@ -107,7 +107,7 @@ export default function Contact() {
                         name="content"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-white">Message :</FormLabel>
+                                <FormLabel className="text-white lg:text-lg">Message :</FormLabel>
                                 <FormControl>
                                     <Textarea className="text-white" placeholder="" {...field} />
                                 </FormControl>
@@ -115,7 +115,7 @@ export default function Contact() {
                             </FormItem>
                         )}
                     />
-                    <Button className="bg-headerViolet" type="submit">Envoyer</Button>
+                    <Button className="bg-headerViolet hover:cursor-pointer lg:text-lg" type="submit">Envoyer</Button>
                 </form>
             </Form>
         </section>
